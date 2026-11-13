@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adventure Escape SA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-wrapper">
+<header class="site-nav">
+<div class="nav-inner">
+<a class="nav-logo" href="#splash"><img src="logo.png" alt="Adventure Escape SA circular logo with island, waves, lightning bolt and purple glow"><span>Adventure Escape SA</span></a>
+<nav class="nav-links"><a href="#home">Home</a><select id="experienceNav" class="experience-select"><option value="">Experiences</option><option value="ultimate">Ultimate Adventure Day</option><option value="family">Family explorer package</option><option value="zipline">Ziplining adventure</option><option value="mountain">Mountain adventure package</option><option value="kayak">Kayaking experience</option><option value="climb">Rock climbing session</option><option value="corporate">Corporate team challenge</option></select><a href="#calculate-fees">Calculate Fees</a><a href="#about-us">About Us</a><a href="#contact-us">Contact Us</a></nav>
+<button id="menuToggle" class="menu-toggle">☰ Menu</button>
+</div>
+<nav id="mobileLinks" class="mobile-links"><a href="#home">Home</a><a href="#experiences">Experiences</a><a href="#calculate-fees">Calculate Fees</a><a href="#about-us">About Us</a><a href="#contact-us">Contact Us</a></nav>
+</header>
+
+<main>
+<section id="splash" class="hero"><div class="hero-inner">
+<div><span class="eyebrow">WESTERN CAPE ADVENTURES</span><h1>Welcome to Adventure Escape SA</h1><p>Today is a good day to go camping</p><a href="#home" class="pill-button warm">Enter Home</a></div>
+<div class="hero-art"><span class="flower one">✿</span><img src="logo.png" alt="Adventure Escape SA circular logo with island, waves, lightning bolt and purple glow"><span class="flower two">✿</span></div>
+</div></section>
+
+<section id="home" class="section-wrap"><div class="home-layout">
+<div class="home-copy"><span class="eyebrow">YOUR NEXT ESCAPE STARTS HERE</span><h2>Welcome to Adventure Escape SA</h2><p class="intro">Discover outdoor experiences, shared moments and fresh perspectives in the Western Cape.</p><div class="highlight-row"><span>✦ Outdoor adventures</span><span>✦ Guided experiences</span><span>✦ Group moments</span></div><div class="actions"><a href="#experiences" class="pill-button secondary">Packages</a><a href="#calculate-fees" class="pill-button primary">Book now</a></div></div>
+<div class="photo-grid">
+<img src="https://images.pexels.com/photos/2743287/pexels-photo-2743287.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Majestic waterfall cascading through lush jungle foliage">
+<img src="https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="A serene campsite under a starry sky">
+<img src="https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A lone hiker explores a stunning trail surrounded by alpine flowers and majestic mountains">
+<img src="https://images.pexels.com/photos/1497585/pexels-photo-1497585.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person kayaking on a mountain lake">
+<img src="https://images.pexels.com/photos/10606212/pexels-photo-10606212.png" alt="A group of friends joyfully jumps in a lively outdoor park setting">
+</div></div></section>
+
+<section id="experiences" class="packages-bg"><div class="section-wrap">
+<div class="section-heading"><span class="eyebrow">FIND YOUR KIND OF ADVENTURE</span><h2>Experiences / Packages</h2></div>
+<div class="package-grid">
+<article class="package-card"><img src="https://images.pexels.com/photos/37276601/pexels-photo-37276601.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bungee jumping"><div class="package-body"><h3>Ultimate Adventure Day</h3><p>R850 per person</p><button data-package="ultimate" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/17040650/pexels-photo-17040650.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Family exploring forest"><div class="package-body"><h3>Family explorer package</h3><p>R500 per person</p><button data-package="family" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/13663971/pexels-photo-13663971.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ziplining through forest"><div class="package-body"><h3>Ziplining adventure</h3><p>R750 per person</p><button data-package="zipline" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/2609459/pexels-photo-2609459.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Hikers with snow mountains"><div class="package-body"><h3>Mountain adventure package</h3><p>R1 000 per person</p><button data-package="mountain" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/1497582/pexels-photo-1497582.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Two adults kayaking on lake"><div class="package-body"><h3>Kayaking experience</h3><p>R650 per person</p><button data-package="kayak" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/3077882/pexels-photo-3077882.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Rock climber scaling cliff at sunset"><div class="package-body"><h3>Rock climbing session</h3><p>R700 per person</p><button data-package="climb" class="pill-button primary">View details</button></div></article>
+<article class="package-card"><img src="https://images.pexels.com/photos/7551733/pexels-photo-7551733.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team building in park"><div class="package-body"><h3>Corporate team challenge</h3><p>R950 per person</p><button data-package="corporate" class="pill-button primary">View details</button></div></article>
+</div>
+<p class="section-note">Choose your escape, then calculate your adventure fees.</p>
+</div></section>
+
+<section id="calculate-fees" class="section-wrap">
+<div class="section-heading"><span class="eyebrow">PLAN YOUR ESCAPE</span><h2>Calculate Fees</h2></div>
+<form id="bookingForm" novalidate>
+<div class="booking-layout">
+<div class="form-card">
+<h3 class="group-title">Your details</h3>
+<div class="fields">
+<div class="field"><label for="firstName">First name</label><input id="firstName" autocomplete="given-name"><span id="firstNameError" class="field-error"></span></div>
+<div class="field"><label for="surname">Surname</label><input id="surname" autocomplete="family-name"><span id="surnameError" class="field-error"></span></div>
+<div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email"><span id="emailError" class="field-error"></span></div>
+<div class="field"><label for="phone">Phone</label><input id="phone" type="tel" autocomplete="tel"><span id="phoneError" class="field-error"></span></div>
+<div class="field"><label for="guests">Guest count</label><input id="guests" type="number" min="1" step="1" value="1"><span id="guestsError" class="field-error"></span></div>
+<div class="field"><label for="experienceDate">Experience date</label><input id="experienceDate" type="date"><span id="dateError" class="field-error"></span></div>
+</div>
+<div class="form-divider"></div>
+<h3 class="group-title">Select package(s)</h3>
+<div id="packageChoices" class="choice-grid">
+<label class="choice"><input type="checkbox" value="ultimate"><span>Ultimate Adventure Day · R850</span></label>
+<label class="choice"><input type="checkbox" value="family"><span>Family explorer package · R500</span></label>
+<label class="choice"><input type="checkbox" value="zipline"><span>Ziplining adventure · R750</span></label>
+<label class="choice"><input type="checkbox" value="mountain"><span>Mountain adventure package · R1 000</span></label>
+<label class="choice"><input type="checkbox" value="kayak"><span>Kayaking experience · R650</span></label>
+<label class="choice"><input type="checkbox" value="climb"><span>Rock climbing session · R700</span></label>
+<label class="choice"><input type="checkbox" value="corporate"><span>Corporate team challenge · R950</span></label>
+</div><span id="packageError" class="field-error"></span>
+<p class="discount-note">Groups of 5 or more receive a 10% discount.</p>
+<div class="form-actions"><button class="pill-button secondary" type="reset">Reset</button><button class="pill-button primary" type="submit">Submit booking</button></div>
+<div id="bookingStatus" class="status"></div>
+</div>
+<aside class="invoice-card">
+<h3>Review / Invoice Summary</h3>
+<table class="invoice-table"><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody>
+<tr><th>Subtotal</th><td id="subtotalValue">R0.00</td></tr>
+<tr><th>VAT (15%)</th><td id="vatValue">R0.00</td></tr>
+<tr><th>Group discount</th><td id="discountValue">−R0.00</td></tr>
+<tr class="total"><th>Total</th><td id="totalValue">R0.00</td></tr>
+</tbody></table>
+<p class="discount-test-note">Discount test example: R1 850 x 5 = R9 250; 10% discount = R925; discounted subtotal = R8 325 (before VAT).</p>
+<button id="discountTest" type="button" class="pill-button secondary">Run discount self-check</button>
+<p id="discountTestResult" class="status"></p>
+</aside>
+</div>
+</form>
+</section>
+
+<section id="about-us" class="packages-bg"><div class="section-wrap">
+<div class="section-heading"><span class="eyebrow">THE HEART BEHIND THE ADVENTURE</span><h2>About Us</h2></div>
+<div class="about-location">Adventure Escape SA | Western Cape</div>
+<div class="about-grid">
+<article class="info-card"><span class="eyebrow">01 / OUR FUTURE</span><h3>Vision</h3><p>To create unforgettable escape experiences that are safe, inspiring and accessible to everyone.</p></article>
+<article class="info-card"><span class="eyebrow">02 / OUR PURPOSE</span><h3>Mission</h3><p>Deliver high-quality adventure activities focused on teamwork, safety, fun and sustainable travel.</p></article>
+<article class="info-card"><span class="eyebrow">03 / WHAT DRIVES US</span><h3>Goals</h3><ul><li>Expand to new locations by 2027.</li><li>Provide successful guided adventure tours.</li><li>Promote eco-friendly outdoor practices.</li></ul></article>
+</div>
+<div class="next-row"><a href="#calculate-fees" class="pill-button warm">Next</a></div>
+</div></section>
+
+<section id="contact-us" class="section-wrap">
+<div class="section-heading"><span class="eyebrow">COME SAY HELLO</span><h2>Contact Us</h2></div>
+<div class="contact-grid">
+<article class="info-card"><h3>Contact details</h3><p class="contact-copy">Phone: 011 342 6371
+Email: info@adventureescapesa.co.za
+Address: 123 Jones Road, Stellenbosch
+Western Cape</p><p><a href="tel:+27113426371">Call us</a> · <a href="mailto:info@adventureescapesa.co.za">Email us</a></p></article>
+<article class="info-card"><h3>Business hours</h3><p class="contact-copy">Monday-Friday: 09:00-17:00
+Sat: 09:00-13:00
+Sunday: Closed</p></article>
+<article class="info-card"><h3>Social media</h3><div class="social-links"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook ↗</a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok ↗</a></div></article>
+<article class="info-card"><h3>Stellenbosch map</h3><div class="map-placeholder"><iframe title="Google Map of Stellenbosch" loading="lazy" src="https://www.google.com/maps?q=Stellenbosch%2C%20South%20Africa&output=embed"></iframe></div></article>
+</div>
+</section>
+</main>
+
+<footer class="site-footer"><div class="footer-inner"><p>Adventure Escape SA | Western Cape | Privacy | Terms</p><button id="backTop" class="back-top" type="button">↑ Back to top</button></div></footer>
+</div>
+
+<div id="detailsModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true"><div class="modal-card"><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-actions"><button id="closeModal" class="pill-button primary" type="button">Close</button></div></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
